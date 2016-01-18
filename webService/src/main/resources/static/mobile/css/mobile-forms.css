@@ -150,11 +150,6 @@ label {
 	border-color: #bbb;
 }
 
-.in, .out {
-	-webkit-animation-timing-function: ease-in-out;
-	-webkit-animation-duration: 350ms !important;
-}
-
 .dynamic-btn-container {
 	background-color: #E9E9E9	!important;
 }
@@ -183,4 +178,16 @@ label {
 
 #dynamic-courses {
 	height: auto !important;	
+}
+
+.wrong-field {
+	border: 3px solid #972C15 !important;
+}
+
+.noty_type_error {
+	background-color: #972C15 !important;
+}
+
+.noty_text {
+	font-weight: 200 !important;
 }
